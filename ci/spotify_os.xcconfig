@@ -21,7 +21,7 @@
 // Project settings:
 ARCHS[sdk=macosx*] = x86_64
 ARCHS[sdk=iphoneos*] = armv7 arm64
-ARCHS[sdk=iphonesimulator*] = i386 x86_64
+ARCHS[sdk=iphonesimulator*] = i386 x86_64 arm64
 ARCHS[sdk=watchos*] = armv7k
 ARCHS[sdk=watchsimulator*] = i386
 ARCHS[sdk=appletvos*] = arm64

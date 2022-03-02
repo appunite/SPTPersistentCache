@@ -498,6 +498,11 @@
 		0510FF291BA2FF7A00ED0766 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ARCHS[sdk=iphonesimulator*]" = (
+					i386,
+					x86_64,
+					arm64,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

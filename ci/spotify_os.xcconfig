@@ -19,18 +19,10 @@
 // A set of configurations used for Spotify Objective-C Open Source Projects
 
 // Project settings:
-ARCHS[sdk=macosx*] = x86_64
-ARCHS[sdk=iphoneos*] = armv7 arm64
+ARCHS[sdk=iphoneos*] = arm64
 ARCHS[sdk=iphonesimulator*] = i386 x86_64 arm64
-ARCHS[sdk=watchos*] = armv7k
-ARCHS[sdk=watchsimulator*] = i386
-ARCHS[sdk=appletvos*] = arm64
-ARCHS[sdk=appletvsimulator*] = x86_64
 
-IPHONEOS_DEPLOYMENT_TARGET = 8.0
-WATCHOS_DEPLOYMENT_TARGET = 2.0
-TVOS_DEPLOYMENT_TARGET = 9.0
-MACOSX_DEPLOYMENT_TARGET = 10.10
+IPHONEOS_DEPLOYMENT_TARGET = 11.0
 
 ENABLE_NS_ASSERTIONS_Debug = YES
 ENABLE_NS_ASSERTIONS_Release = NO
@@ -46,7 +38,7 @@ ENABLE_TESTABILITY_Debug = YES
 ENABLE_TESTABILITY_Release = NO
 ENABLE_TESTABILITY = $(ENABLE_TESTABILITY_$(CONFIGURATION))
 
-SUPPORTED_PLATFORMS = macosx iphoneos iphonesimulator watchsimulator appletvsimulator watchos appletvos
+SUPPORTED_PLATFORMS = iphoneos iphonesimulator
 
 CLANG_ENABLE_MODULES = YES
 CLANG_MODULES_AUTOLINK = NO

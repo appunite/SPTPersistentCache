@@ -14,6 +14,10 @@ let package = Package(
     targets: [
         .target(
             name: "SPTPersistentCache"
-        )
+        ),
+        .testTarget(
+            name: "SPTPersistentCacheTests",
+            dependencies: ["SPTPersistentCache"]
+        ),
     ]
 )

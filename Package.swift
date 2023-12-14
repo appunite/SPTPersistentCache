@@ -13,12 +13,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "SPTPersistentCache",
-            publicHeadersPath: "."
-        ),
-        .testTarget(
-            name: "SPTPersistentCacheTests",
-            dependencies: ["SPTPersistentCache"]
-        ),
+            name: "SPTPersistentCache"
+        )
     ]
 )

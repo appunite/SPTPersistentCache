@@ -19,8 +19,8 @@
  under the License.
  */
 
-#import <SPTPersistentCache/SPTPersistentCacheHeader.h>
-#import <SPTPersistentCache/SPTPersistentCacheImplementation.h>
-#import <SPTPersistentCache/SPTPersistentCacheOptions.h>
-#import <SPTPersistentCache/SPTPersistentCacheRecord.h>
-#import <SPTPersistentCache/SPTPersistentCacheResponse.h>
+#import "SPTPersistentCacheHeader.h"
+#import "SPTPersistentCacheImplementation.h"
+#import "SPTPersistentCacheOptions.h"
+#import "SPTPersistentCacheRecord.h"
+#import "SPTPersistentCacheResponse.h"

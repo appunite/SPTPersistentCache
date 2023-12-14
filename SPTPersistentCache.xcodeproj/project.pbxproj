@@ -141,6 +141,7 @@
 		C4B98D1A1C7B5CB900E1B9A3 /* SPTPersistentCacheDebugUtilitiesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTPersistentCacheDebugUtilitiesTests.m; sourceTree = "<group>"; };
 		C4EA65011C7A478100A6091A /* SPTPersistentCacheDebugUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTPersistentCacheDebugUtilities.h; sourceTree = "<group>"; };
 		C4EA65021C7A478100A6091A /* SPTPersistentCacheDebugUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTPersistentCacheDebugUtilities.m; sourceTree = "<group>"; };
+		E77BC4C82B2B049E00581431 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +170,7 @@
 		0510FF0A1BA2FF7A00ED0766 = {
 			isa = PBXGroup;
 			children = (
+				E77BC4C82B2B049E00581431 /* Package.swift */,
 				696CD78E1C4707EA0071DD18 /* API */,
 				696CD7831C4707E20071DD18 /* Sources */,
 				0510FF221BA2FF7A00ED0766 /* Tests */,

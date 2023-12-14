@@ -20,7 +20,7 @@
  */
 #import <XCTest/XCTest.h>
 
-#import "SPTPersistentCacheFileManager+Private.h"
+#import "../Sources/SPTPersistentCache/SPTPersistentCacheFileManager+Private.h"
 #import "NSFileManagerMock.h"
 
 #import <objc/runtime.h>

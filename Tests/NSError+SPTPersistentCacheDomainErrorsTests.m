@@ -20,7 +20,7 @@
  */
 #import <XCTest/XCTest.h>
 
-#import "NSError+SPTPersistentCacheDomainErrors.h"
+#import "../Sources/SPTPersistentCache/NSError+SPTPersistentCacheDomainErrors.h"
 
 @interface NSError_SPTPersistentCacheDomainErrorsTests : XCTestCase
 

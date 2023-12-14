@@ -18,7 +18,7 @@
  specific language governing permissions and limitations
  under the License.
  */
-#import "SPTPersistentCachePosixWrapper.h"
+#import "../Sources/SPTPersistentCache/SPTPersistentCachePosixWrapper.h"
 
 /**
  A custom mock of the SPTPersistentCachePosixWrapper class.

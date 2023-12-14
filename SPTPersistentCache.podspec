@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
         "Dmitry Ponomarev" => "dmitry@spotify.com"
     }
 
-    s.source                = { :git => "https://github.com/spotify/SPTPersistentCache.git", :tag => s.version }
-    s.source_files          = "include/SPTPersistentCache/*.h", "Sources/**/*.{h,m,c}"
-    s.public_header_files   = "include/SPTPersistentCache/*.h"
+    s.source                = { :git => "https://github.com/appunite/SPTPersistentCache.git", :tag => s.version }
+    s.source_files          = "Sources/**/*.{h,m,c}"
+    s.public_header_files   = "Sources/SPTPersistentCache/include/*.h"
     s.xcconfig              = {
         "OTHER_LDFLAGS" => "-lObjC"
     }

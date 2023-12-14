@@ -20,7 +20,7 @@
  */
 #import <XCTest/XCTest.h>
 
-#import <SPTPersistentCache/SPTPersistentCacheOptions.h>
+#import "../Sources/SPTPersistentCache/include/SPTPersistentCacheOptions.h"
 #import "SPTPersistentCacheObjectDescriptionStyleValidator.h"
 
 static NSString * const SPTPersistentCacheOptionsPathComponent = @"com.spotify.tmp.cache";

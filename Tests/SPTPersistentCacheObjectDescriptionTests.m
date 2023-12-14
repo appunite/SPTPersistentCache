@@ -20,7 +20,7 @@
  */
 #import <XCTest/XCTest.h>
 
-#import "SPTPersistentCacheObjectDescription.h"
+#import "../Sources/SPTPersistentCache/SPTPersistentCacheObjectDescription.h"
 #import "SPTPersistentCacheObjectDescriptionStyleValidator.h"
 
 @interface SPTPersistentCacheObjectDescriptionTests : XCTestCase

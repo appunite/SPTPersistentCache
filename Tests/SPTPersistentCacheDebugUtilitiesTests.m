@@ -20,7 +20,7 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "SPTPersistentCacheDebugUtilities.h"
+#import "../Sources/SPTPersistentCache/SPTPersistentCacheDebugUtilities.h"
 
 
 @interface SPTPersistentCacheDebugUtilitiesTests : XCTestCase

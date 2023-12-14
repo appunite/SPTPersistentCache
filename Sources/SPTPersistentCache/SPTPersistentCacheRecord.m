@@ -18,7 +18,7 @@
  specific language governing permissions and limitations
  under the License.
  */
-#import <SPTPersistentCache/SPTPersistentCacheRecord.h>
+#import "include/SPTPersistentCacheRecord.h"
 #import "SPTPersistentCacheObjectDescription.h"
 
 @implementation SPTPersistentCacheRecord

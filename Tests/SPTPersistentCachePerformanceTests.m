@@ -22,7 +22,7 @@
 #import <XCTest/XCTest.h>
 #import <mach/mach_time.h>
 
-#import <SPTPersistentCache/SPTPersistentCache.h>
+#import "../Sources/SPTPersistentCache/include/SPTPersistentCache.h"
 double convertMachToMilliSeconds(uint64_t mach_time);
 
 static const int SPTPersistentCachePerformanceIterationCount = 200;

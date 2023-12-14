@@ -19,9 +19,9 @@
  under the License.
  */
 
-#import <SPTPersistentCache/SPTPersistentCacheImplementation.h>
-#import <SPTPersistentCache/SPTPersistentCacheResponse.h>
-#import <SPTPersistentCache/SPTPersistentCacheOptions.h>
+#import "include/SPTPersistentCacheImplementation.h"
+#import "include/SPTPersistentCacheResponse.h"
+#import "include/SPTPersistentCacheOptions.h"
 
 @class SPTPersistentCacheFileManager;
 @class SPTPersistentCacheGarbageCollector;

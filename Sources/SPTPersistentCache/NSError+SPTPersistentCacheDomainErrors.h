@@ -18,9 +18,19 @@
  specific language governing permissions and limitations
  under the License.
  */
+#import <Foundation/Foundation.h>
 
-#import <SPTPersistentCache/SPTPersistentCacheHeader.h>
-#import <SPTPersistentCache/SPTPersistentCacheImplementation.h>
-#import <SPTPersistentCache/SPTPersistentCacheOptions.h>
-#import <SPTPersistentCache/SPTPersistentCacheRecord.h>
-#import <SPTPersistentCache/SPTPersistentCacheResponse.h>
+#import "include/SPTPersistentCacheImplementation.h"
+
+/**
+ Category to instantiate NSError objects with a specific domain for SPTPersistentCache.
+ */
+@interface NSError (SPTPersistentCacheDomainErrors)
+
+/**
+ Returns a new instance of NSError with a SPTPersistentCache domain and an error code.
+ @param persistentDataCacheLoadingError The error code for the NSError object.
+ */
++ (instancetype)spt_persistentDataCacheErrorWithCode:(SPTPersistentCacheLoadingError)persistentDataCacheLoadingError;
+
+@end

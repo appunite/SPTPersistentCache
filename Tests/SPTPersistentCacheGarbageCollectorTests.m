@@ -20,8 +20,8 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "SPTPersistentCacheGarbageCollector.h"
-#import <SPTPersistentCache/SPTPersistentCache.h>
+#import "../Sources/SPTPersistentCache/SPTPersistentCacheGarbageCollector.h"
+#import "../Sources/SPTPersistentCache/include/SPTPersistentCache.h"
 
 @interface SPTPersistentCacheGarbageCollector ()
 @property (nonatomic, strong) NSTimer *timer;

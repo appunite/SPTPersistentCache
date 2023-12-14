@@ -18,8 +18,8 @@
  specific language governing permissions and limitations
  under the License.
  */
-#import <SPTPersistentCache/SPTPersistentCacheResponse.h>
-#import <SPTPersistentCache/SPTPersistentCacheRecord.h>
+#import "include/SPTPersistentCacheResponse.h"
+#import "include/SPTPersistentCacheRecord.h"
 #import "SPTPersistentCacheObjectDescription.h"
 #import "SPTPersistentCacheResponse+Private.h"
 

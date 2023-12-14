@@ -20,10 +20,10 @@
  */
 #import "SPTPersistentCache+Private.h"
 
-#import <SPTPersistentCache/SPTPersistentCacheImplementation.h>
-#import <SPTPersistentCache/SPTPersistentCacheResponse.h>
-#import <SPTPersistentCache/SPTPersistentCacheOptions.h>
-#import <SPTPersistentCache/SPTPersistentCacheHeader.h>
+#import "include/SPTPersistentCacheImplementation.h"
+#import "include/SPTPersistentCacheResponse.h"
+#import "include/SPTPersistentCacheOptions.h"
+#import "include/SPTPersistentCacheHeader.h"
 
 #import "SPTPersistentCacheRecord+Private.h"
 #import "SPTPersistentCacheResponse+Private.h"

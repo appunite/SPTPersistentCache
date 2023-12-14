@@ -18,7 +18,7 @@
  specific language governing permissions and limitations
  under the License.
  */
-#import <SPTPersistentCache/SPTPersistentCacheHeader.h>
+#import "include/SPTPersistentCacheHeader.h"
 
 #import "NSError+SPTPersistentCacheDomainErrors.h"
 

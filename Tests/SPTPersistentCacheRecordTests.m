@@ -20,8 +20,8 @@
  */
 
 #import <XCTest/XCTest.h>
-#import <SPTPersistentCache/SPTPersistentCacheRecord.h>
-#import "SPTPersistentCacheRecord+Private.h"
+#import "../Sources/SPTPersistentCache/include/SPTPersistentCacheRecord.h"
+#import "../Sources/SPTPersistentCache/SPTPersistentCacheRecord+Private.h"
 #import "SPTPersistentCacheObjectDescriptionStyleValidator.h"
 
 

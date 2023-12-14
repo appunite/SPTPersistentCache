@@ -18,14 +18,18 @@
  specific language governing permissions and limitations
  under the License.
  */
-#import <SPTPersistentCache/SPTPersistentCacheResponse.h>
+#import "SPTPersistentCacheFileManager.h"
+#import "include/SPTPersistentCacheOptions.h"
 
-extern NSString *NSStringFromSPTPersistentCacheResponseCode(SPTPersistentCacheResponseCode code);
+NS_ASSUME_NONNULL_BEGIN
 
-@interface SPTPersistentCacheResponse (Private)
+/// Private interface exposed for testability.
+@interface SPTPersistentCacheFileManager ()
 
-- (instancetype)initWithResult:(SPTPersistentCacheResponseCode)result
-                         error:(NSError *)error
-                        record:(SPTPersistentCacheRecord *)record;
+@property (nonatomic, copy, readonly) SPTPersistentCacheOptions *options;
+@property (nonatomic, copy, readonly, nullable) SPTPersistentCacheDebugCallback debugOutput;
+@property (nonatomic, strong, readonly) NSFileManager *fileManager;
 
 @end
+
+NS_ASSUME_NONNULL_END

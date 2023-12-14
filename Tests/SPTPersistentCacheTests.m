@@ -29,13 +29,13 @@
 #endif
 #import <objc/runtime.h>
 
-#import <SPTPersistentCache/SPTPersistentCache.h>
-#import <SPTPersistentCache/SPTPersistentCacheResponse.h>
-#import <SPTPersistentCache/SPTPersistentCacheRecord.h>
+#import "../Sources/SPTPersistentCache/include/SPTPersistentCache.h"
+#import "../Sources/SPTPersistentCache/include/SPTPersistentCacheResponse.h"
+#import "../Sources/SPTPersistentCache/include/SPTPersistentCacheRecord.h"
 
-#import "SPTPersistentCacheGarbageCollector.h"
-#import "SPTPersistentCache+Private.h"
-#import "SPTPersistentCacheFileManager.h"
+#import "../Sources/SPTPersistentCache/SPTPersistentCacheGarbageCollector.h"
+#import "../Sources/SPTPersistentCache/SPTPersistentCache+Private.h"
+#import "../Sources/SPTPersistentCache/SPTPersistentCacheFileManager.h"
 #import "NSFileManagerMock.h"
 #import "SPTPersistentCachePosixWrapperMock.h"
 

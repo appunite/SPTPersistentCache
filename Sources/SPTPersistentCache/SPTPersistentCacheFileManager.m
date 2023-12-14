@@ -20,7 +20,7 @@
  */
 #import "SPTPersistentCacheFileManager+Private.h"
 #import "SPTPersistentCacheDebugUtilities.h"
-#import <SPTPersistentCache/SPTPersistentCacheOptions.h>
+#import "include/SPTPersistentCacheOptions.h"
 
 static const double SPTPersistentCacheFileManagerMinFreeDiskSpace = 0.1;
 

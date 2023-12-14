@@ -20,7 +20,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <SPTPersistentCache/SPTPersistentCacheOptions.h>
+#import "include/SPTPersistentCacheOptions.h"
 
 /**
  Executes the debug callback safely avoiding a crash if it is set to nil.

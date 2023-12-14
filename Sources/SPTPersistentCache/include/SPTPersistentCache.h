@@ -18,18 +18,9 @@
  specific language governing permissions and limitations
  under the License.
  */
-#import "SPTPersistentCacheFileManager.h"
-#import <SPTPersistentCache/SPTPersistentCacheOptions.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
-/// Private interface exposed for testability.
-@interface SPTPersistentCacheFileManager ()
-
-@property (nonatomic, copy, readonly) SPTPersistentCacheOptions *options;
-@property (nonatomic, copy, readonly, nullable) SPTPersistentCacheDebugCallback debugOutput;
-@property (nonatomic, strong, readonly) NSFileManager *fileManager;
-
-@end
-
-NS_ASSUME_NONNULL_END
+#import "SPTPersistentCacheHeader.h"
+#import "SPTPersistentCacheImplementation.h"
+#import "SPTPersistentCacheOptions.h"
+#import "SPTPersistentCacheRecord.h"
+#import "SPTPersistentCacheResponse.h"
